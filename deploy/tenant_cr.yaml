@@ -1,0 +1,7 @@
+apiVersion: csiprovisioner.kubevirt.io/v1alpha1
+kind: Tenant
+metadata:
+  name: tenant
+spec:
+  infraClusterNamespace: default
+  infraClusterLabels: storage-id=test
